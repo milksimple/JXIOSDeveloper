@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <MapKit/MapKit.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [[MKUserLocation alloc] init];
+    // add some first changes // add some first changes
 }
 
 - (void)didReceiveMemoryWarning {
